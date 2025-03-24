@@ -253,7 +253,7 @@ export default function Home() {
           )}
 
           {passo === "passo2" && (
-            <div className="flex lg:h-full h-[400px] flex-col  justify-between lg:py-8 py-4 ">
+            <div className="flex lg:h-full h-[400px] flex-col  justify-between lg:py-8 py-4 gap-4 ">
               <div>
                 <h1 className="text-3xl font-bold text-slate-900">Endereço</h1>
                 <p className="text-gray-400">
