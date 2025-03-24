@@ -433,9 +433,9 @@ export default function Home() {
           )}
 
           {passo === "passo4" && (
-            <div className="flex lg:h-full flex-col justify-between  h-[550px] py-4 ">
+            <div className="flex lg:h-full flex-col justify-between gap-4 ">
               <div>
-                <h1 className="text-3xl font-bold text-slate-900">
+                <h1 className="text-3xl font-bold text-slate-900 ">
                   Plano de Pagamento
                 </h1>
                 <p className="text-gray-400">Escolha seu plano de pagamento</p>
@@ -477,7 +477,7 @@ export default function Home() {
                   </h1>
                   <div className=" w-40 ">
                     <p className="text-center text-gray-600 mb-4  font-medium">
-                      Recursos e suporte de usuário.
+                      Novos recursos e suporte de usuário.
                     </p>
                     <button
                       onClick={() => setPlanos("pro")}
